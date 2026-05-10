@@ -11,7 +11,7 @@ st.set_page_config(
 # ---------------- LOAD DATA ----------------
 @st.cache_data
 def load_data():
-    df = pd.read_excel("Telco_customer_churn.xlsx")
+    df = pd.read_excel("dashboards.xlsx")
 
     df.columns = (
         df.columns
